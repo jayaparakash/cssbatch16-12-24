@@ -1,0 +1,150 @@
+/* Media Queries 
+small mobile devices : - >320px to 375px
+
+medium mobile device : - >375px to < 425px
+
+large mobile device  : - > 425px to <768px
+
+tablets device       : - > 768px to <1024px 
+
+small desktops       : - > 1024px to <1440px
+
+lagre desktops,tvs   : - > 1440px to 2560px
+*/
+
+
+/* h1{
+    background-color: red;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: orangered;
+    margin: 50px auto;
+} */
+
+/* small mobile devices */
+
+@media (min-width:320px) and (max-width:375px) {
+    h1{
+        background-color: green;
+        color: white;
+        width: 100%;
+    }
+
+    div{
+        height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 30px;
+    }
+
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+
+/* M mobile devices */
+@media (min-width:375px) and (max-width:425px) {
+    h1{
+        background-color: blueviolet;
+        color: lightgray;
+        width: 100%;
+    }
+
+
+    
+    body{
+        background-color: lightgrey;
+    }
+    div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50px;
+    }
+}
+
+/* large mobile Device */
+@media (min-width:425px) and (max-width:768px) {
+    h1{
+        background-color: red;
+        color: lightgray;
+        width: 100%;
+    }
+
+    
+    body{
+        background-color: black;
+    }
+    div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 90px;
+    }
+}
+
+/* small  desktop */
+
+
+@media (min-width:768px) and (max-width:1024px){
+    h1{
+        background-color: green;
+        color: lightgray;
+        width: 100%;
+    }
+
+    body{
+        background-color: yellow;
+    }
+    div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    }
+}
+
+/*medium large desktop */
+@media (min-width:1024px) and (max-width:1440px){
+    h1{
+        background-color: yellow;
+        color: black;
+        width: 100%;
+    }
+
+    body{
+        background-color: orangered;
+    }
+    div{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    }
+}
+
+@media (min-width:1440px) and (max-width:2560px){
+    h1{
+        background-color: gold;
+        color: white;
+        width: 100%;
+    }
+
+    body{
+        background-color: yellow;
+    }
+    div{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100%;
+    }
+}
+

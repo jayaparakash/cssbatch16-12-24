@@ -1,0 +1,157 @@
+/* *{
+    background-color: blueviolet;
+    font-size: 30px;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* div p{
+    color: red;
+    background: lightblue;
+    border: 1px solid blue;
+} */
+
+/* div > p{
+    color: red;
+    background: lightblue;
+    border: 1px solid blue;
+} */
+/* 
+p{
+    border: 1px solid red;
+    margin: 1px ;
+    float: left;
+}
+
+
+.container{
+    background-color: darkblue;
+    height: 90vh;
+    width: 100%;
+}
+
+.container > div{
+    margin: 2px;
+    border: 1px solid lightgray;
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+} */
+
+
+/* h1 ~ p{
+color: red;
+background-color: whitesmoke;
+} */
+/* 
+<!-- trageting element by atrributetype -->
+    element[attribute]{
+} */
+
+/* input[type]{
+    border: 1px solid red;
+    border-radius: 5px ;
+}
+
+ */
+
+/* 
+button{
+    color: azure;
+    background-color: blueviolet;
+}
+
+/* <!-- trageting element by attribute value --> */
+/* input[type="text"]{ */
+    /* background-color: aqua;
+}
+
+input[type="email"]{
+    background-color: plum;
+} */ 
+
+
+
+
+/* <!-- trageting element by title= ^start $end ~continue --> */
+/* ^ start 
+    $ end
+    ~ continue
+*/
+/* 
+p[title~="fourth"]{
+    color: darkblue;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px lightblue;
+} */
+
+
+/* pesudoClass :  */
+/* unvisited */
+/* a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+}
+
+a:active{
+color: lightgreen;
+}
+
+a:visited{
+    color: brown;
+} */
+
+/* input{
+    border:1px solid red;
+    border-radius: 5px;
+}
+
+input:focus{
+ outline: none;
+ border: 1px solid lightblue;
+ box-shadow: 3px 3px 2px lightblue;
+} */
+
+/* input:checked{
+    height: 20px;
+    width: 20px;
+} */
+/* <!-- pesudoElement ::   changes style of element-->
+
+<!-- :: -->
+ <!-- first-line -->
+ <!-- first-letter -->
+  <!-- ::selection -->
+   <!-- ::marker -->
+ <!-- ::after,::before -->
+  <!-- nth-child(),nth-last-child,nth-type-lastChild() --> */
+
+
+  /* p::first-line{
+    font-size: 50px;
+    color: red;
+  } */
+/* 
+  p::selection{
+    background-color: red;
+    color: white;
+  } */
+
+/* 
+  p::before{
+    content: ".";
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+  } */
+
+
+  /* nth-child() */
+  /* nth-last-of-type() */
+/* p:nth-last-of-type(1){
+color: red;
+} */

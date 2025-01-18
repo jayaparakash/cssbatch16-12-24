@@ -1,0 +1,48 @@
+/* BackgroundProperties */
+/* 
+background-Color
+background-image
+background-repeate
+background-size
+background-position
+background-attachment
+background-clip => border-box,content-box,padding-box
+background
+
+
+background-image:url():
+Bg-size = fontsize px ,% ,contain,cover
+bg-postion => top,bottom,center,left right
+*/
+
+/* 
+display , visibility
+*/
+
+.container{
+     height: 300px;
+    width: 100%;
+    background-image:url('https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size:100% 100%;    
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+p{
+
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+body{
+    /* background-image:url('/superman.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+/* display , visibility */

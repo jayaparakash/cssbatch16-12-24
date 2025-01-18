@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    color: white;
+    height: 90vh;
+}
+
+
+
+/* 
+    animations
+
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iterate-count
+animation-direction
+animation-fill mode
+animation-play-state
+
+
+"keyframes animation-name{}
+*/
+
+.div{
+    height: 400px;
+    width: 400px;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px lightgray;
+
+    animation-name:square;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    display: grid;
+    place-items: center;
+
+    
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border: 5px solid lightgray;
+    box-shadow: 2px 2px 5px lightgray;
+
+    animation-name:circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes circle{
+    0%{
+        border: 10px solid lightgreen;
+        box-shadow: 2px 2px 5px darkblue;
+        border-radius: 70px;
+        transform: rotate(25deg);
+    }
+    25%{
+        border: 15px solid lightgreen;
+        box-shadow: 2px 2px 5px darkblue;
+        transform: rotate(25deg);
+        /* border-radius: 100px; */
+    }
+    50%{
+        border: 20px solid lightgreen;
+        box-shadow: 2px 2px 5px darkblue;
+        /* border-radius: 150px; */
+        transform: rotate(75deg);
+    }
+    75%{
+        border: 30px solid lightgreen;
+        box-shadow: 2px 2px 5px darkblue;
+        /* border-radius: 200px; */
+        transform: rotate(245deg);
+    }
+    100%{
+        border: 40px solid lightgreen;
+        box-shadow: 2px 2px 5px darkblue;
+        border-radius: 50%;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes square{
+     0%{
+        border: 10px solid lightslategray;
+        box-shadow: 2px 2px 5px darkblue;
+
+     }
+    25%{
+        border: 15px solid lightgreen;
+        box-shadow: 2px 2px 5px darkgreen;
+  
+    }
+    50%{
+        border: 20px solid yellow;
+        box-shadow: 2px 2px 5px plum;
+ 
+    }
+    75%{
+        border: 25px solid maroon;
+        box-shadow: 2px 2px 5px maroon;
+        
+    }
+   100%{
+    border: 30px solid orangered;
+    box-shadow: 2px 2px 5px yellow;
+
+   }
+}

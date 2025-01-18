@@ -1,0 +1,112 @@
+/* FlexBox  😎*/
+
+/* Container properties parent  */
+    /*
+
+    $display
+    $flex-direction
+    ==>row
+    =>column
+    =>row reverse
+    =>columnreverse
+   $ flex-wrap
+    =>wrap , no wrap
+    flex-flow
+    => shorthandpro 
+    $justify-content
+    =>space-between,around,evenly
+    =>center
+    $flex gap
+    align-Items
+    =>self-start
+    =>self-end
+    =>center
+    align-content
+    =>space-between,around,evenly
+    =>center
+    */
+
+
+/* item properties child */
+
+/* 
+order
+flex-grow
+flex-shrink
+align-self
+flex-basis 
+*/
+
+
+
+
+#child2{
+/* order:0;
+flex-grow: 0;
+flex-shrink: 10; */
+/* align-self: self-end; */
+}
+#child4{
+/* order:0 ;
+flex-grow: 0; */
+/* flex-shrink: 2; */
+/* align-self: self-end; */
+}
+#child5{
+/* order: 0;
+flex-grow: 0; */
+/* flex-shrink: 50; */
+align-self: center;
+}
+#child8{
+/* order:0 ;
+flex-grow: 0; */
+/* flex-shrink: 20; */
+/* align-self: self-end; */
+}
+
+
+
+
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+height: 500px;
+width: 80%;
+background-color: blue;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 5px;
+align-items:center;
+/* align-content:space-between; */
+}
+
+
+
+.container > div{
+  
+    height: 50px;
+    width: 50px;
+    background-color: rgb(18, 199, 18);
+    /* margin: 3px; */
+    border-radius: 5px;
+   display: grid;
+   place-items: center;
+   font-weight: bold;
+   box-shadow: 1px 1px 0px lightgrey;
+}
+
+.child:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+
+
+

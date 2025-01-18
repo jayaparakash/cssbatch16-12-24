@@ -1,0 +1,76 @@
+/* <!-- Content --> which we pass inside of an tags  height & width
+<!-- padding --> => which is around the content / which takes space inside of element
+<!-- border --> => border is around the padding and content
+<!-- margin -->  which take space outside of an element 
+
+/* Box-sizing */
+
+
+body{
+/* border: 2px solid lightblue;
+height: 90vh; */
+/* padding: 0px;
+margin: 0px; */
+}
+
+h1{
+    text-align: center;
+    /* padding => top left bottom right */
+    /* padding:50px; */
+    /* padding-left: 500px; */
+    /* padding-right: 500px; */
+    /* padding-top:400px ; */
+    /* padding-bottom:400px ; */
+    /* height: 200px;
+    width: 200px; */
+
+    /* shorthandProperties */
+            /* top , right, bottom ,left */
+    /* padding: 100px 50px 500px 500px; */
+    /* padding:30px; */
+
+
+    /* border: 10px solid lightblue; */
+    /* border-width: 20px;
+    border-style:solid ;
+    border-color:red; */
+
+    /* border-top:3px solid red ;
+    border-right:4px dotted lightblue;
+    border-bottom:5px dashed lightgreen;
+    border-left: 10px solid lightslategray; */
+    /* border-l */
+
+    /* border-radius : ; */
+    /* border-radius: 50%; */
+    /* border-bottom-left-radius: 20px;*/
+
+    /* marign */
+
+    /* margin: 100px; */
+
+/* margin-top:100px ; */ 
+/* margin-bottom: 200px; */
+/* margin-left: 200px; */
+/* margin-top: -400px; */
+/* display: ; */  
+}
+
+
+div{
+    margin: 2px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid;
+    padding: 20px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+/* section{
+    margin: 2px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid;
+    background-color: red;
+} */

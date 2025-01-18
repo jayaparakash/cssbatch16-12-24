@@ -1,0 +1,96 @@
+/* absoluteUints  => fixed*/ 
+/* 
+    mm =>millimeter
+    cm=>centimeter
+    px=>pexels
+    pt=>ponits
+    in =>inchs
+*/
+
+/* RelativeUints => fluid */
+
+
+/*
+vh=>viewheight
+vw=>viewwidth
+em=>elementsize
+rem=>rootelementsize
+% => percent
+*/
+
+/* 
+div{
+    height: 10px;
+}
+
+
+#absolute{
+    width: 100px;
+    background-color: blue;
+}
+#relative{ */
+    /* border: 1px solid; */
+    /* height: 90vh; */
+    /* width: 50vw;
+    background-color: green;
+} */
+
+/* html{
+    font-size: 100px;
+}
+    
+    .parent{
+        font-size: 20px;
+}
+
+#child{
+    font-size: 2rem;
+} */
+
+
+/* 
+CSS Formatting
+
+text-align
+text-decoration
+text-transformation
+text-indent
+text-overFlow
+text-shadow
+font-family
+*/
+
+h1{
+
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+color: blueviolet;
+
+text-shadow: -5px -5px px plum;
+
+      }
+
+/* text-align  => left ,center,right*/
+/* text-decoration => underline, overline , linethrough */
+/* text-transformation  capitalize , uppercase, lowerCase*/
+
+p{
+    /* text-decoration: overline solid red;
+    text-decoration-style:dotted;
+    text-decoration-line: underline;
+    text-decoration-color:yellow ; */
+    /* text-transform: capitalize; */
+
+    /* text-indent: 200px;
+    
+    */
+
+/* 
+    overflow: scroll;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis; 
+
+
+}
+
