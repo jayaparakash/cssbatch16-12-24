@@ -12,6 +12,7 @@
     border: 1px solid blue;
 } */
 
+
 /* div > p{
     color: red;
     background: lightblue;
@@ -23,7 +24,6 @@ p{
     margin: 1px ;
     float: left;
 }
-
 
 .container{
     background-color: darkblue;
@@ -51,7 +51,7 @@ background-color: whitesmoke;
 
 /* input[type]{
     border: 1px solid red;
-    border-radius: 5px ;
+    border-radius:5px;
 }
 
  */
